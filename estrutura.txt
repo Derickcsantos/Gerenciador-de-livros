@@ -1,0 +1,19 @@
+LibraryManager/              ← seu projeto console original
+LibraryManager.Web/          ← novo projeto ASP.NET Core MVC
+│── Controllers/
+│    └── BooksController.cs
+│
+│── Models/
+│    └── Book.cs             ← você pode compartilhar o modelo
+│
+│── Data/
+│    └── AppDbContext.cs     ← DbContext usando Neon
+│
+│── Views/
+│    └── Books/
+│         ├── Index.cshtml   ← lista de livros
+│         ├── Create.cshtml  ← form para adicionar
+│
+│── wwwroot/                 ← CSS, JS, imagens
+│── Program.cs
+│── appsettings.json         ← onde ficará a string de conexão

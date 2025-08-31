@@ -1,0 +1,13 @@
+@model LibraryManager.Web.Models.Book
+
+<h2>Excluir Livro</h2>
+
+<div class="alert alert-danger">
+    Tem certeza que deseja excluir o livro <strong>@Model.Title</strong>?
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id">
+    <button type="submit" class="btn btn-danger">Sim, excluir</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
