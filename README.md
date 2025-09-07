@@ -15,6 +15,6 @@ Projeto Fullstack desenvolvido com ASP.NET Core e arquitetura MVC, com intuito d
 
 ## Contato
 
-[Linkedin](https://www.linkedin.com/in/derick-campos-santos/)
-[Email](derickcampossantos1@gmail.com)
-[Linktree](https://derickcs-linktree.vercel.app/)
+- [Linkedin](https://www.linkedin.com/in/derick-campos-santos/)
+- [Email](derickcampossantos1@gmail.com)
+- [Linktree](https://derickcs-linktree.vercel.app/)
